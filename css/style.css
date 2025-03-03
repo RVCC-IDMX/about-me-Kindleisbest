@@ -1,3 +1,26 @@
 body {
-    background-color: rgb(0,153,255);
+    background-color: #008ff6;
+    padding-top: 0%;
+    padding: 0%;
+}
+header {
+    background-color: black;
+    margin: -10px;
+    border: none;
+    position: relative;
+}
+footer {
+    margin: -10px;
+    border: none;
+    position: relative;
+    background-color: black;
+    
+}
+#me {
+    background-color: #48b0Fa;
+}
+footer {
+    
+    color:white;
+    text-decoration-color: #ffff;
 }
