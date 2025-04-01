@@ -26,10 +26,17 @@ footer h4 {
 #me {
     background-color: #48b0Fa;
 }
+#media {
+    text-align:center;
+    
+}
 footer {
     
     color:white;
     text-decoration-color: #ffff;
+}
+blockquote{
+        
 }
 
 /*
