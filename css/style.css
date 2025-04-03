@@ -18,7 +18,8 @@ footer {
     border: none;
     position: relative;
     background-color: black;
-    
+    color:white;
+    text-decoration-color: #ffff;
 }
 footer h4 {
     margin:0;
@@ -32,8 +33,7 @@ footer h4 {
 }
 footer {
     
-    color:white;
-    text-decoration-color: #ffff;
+    
 }
 blockquote{
         
