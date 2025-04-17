@@ -39,6 +39,9 @@ footer h4 {
     max-width: 640px;
     height: auto;
 }
+#list li{
+    margin: 5px;
+}
 
 
 /*
