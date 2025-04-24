@@ -16,6 +16,7 @@ main, footer {
 }
 main h1{
     font-size: 50px;
+    font-family:"DM Serif Text";
 }
 footer {
     /* margin: -10px; */
@@ -28,7 +29,7 @@ footer {
 footer h4 {
     margin:0;
 }
-#me {
+main {
     background-color: #48b0Fa;
 }
 #media {
@@ -61,14 +62,46 @@ figcaption{
     figure{
         display:grid;
         grid-template-columns: 2fr 1fr;
-    }
-    figcaption{
-        display:flex;
-        justify-content: center;
         align-items: center;
-        font-size: 2rem;
-        margin-left: 1rem;  
+        justify-items: center;
     }
+/*
+    display:flex;
+    justify-content: center;
+    align-items: center;*/
+    figcaption{
+        font-size: 2rem;
+        margin-left: 1rem; 
+        width:inherit;
+        max-width: inherit;
+    }
+    #blog div{
+        max-width:100%;
+        columns: 40rem;
+    }
+}
+@media (min-width: 1200px){
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #gallery h4 {
+        grid-column: 1 / -1;
+    }
+    #gallery figure {
+        display:block;
+    }
+    figure img {
+        max-height:280px;
+        object-fit:cover;
+    }
+    figure{
+        max-height: 600px;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
 }
 
 /*
