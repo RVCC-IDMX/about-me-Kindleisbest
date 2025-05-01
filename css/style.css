@@ -58,6 +58,21 @@ figcaption{
     flex-direction: column; 
     align-items: center;
 }
+#contact form{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-self: center;
+    background-color: rgb(0,153,255);
+    
+    border-radius: 10px;
+    margin: auto;
+    min-width: 300px;
+    width:100%;
+    max-width:500px;
+    margin-bottom: 0px;
+    margin-top: 10px;   
+}
 @media (min-width: 60em){
     figure{
         display:grid;
@@ -79,21 +94,7 @@ figcaption{
         max-width:100%;
         columns: 40rem;
     }
-    #contact form{
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center;
-        justify-self: center;
-        background-color: rgb(0,153,255);
-        
-        border-radius: 10px;
-        margin: auto;
-        min-width: 300px;
-        width:100%;
-        max-width:500px;
-        margin-bottom: 0px;
-        margin-top: 10px;   
-    }
+    
 }
 @media (min-width: 1200px){
     #gallery {
