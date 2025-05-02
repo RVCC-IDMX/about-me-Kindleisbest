@@ -132,12 +132,14 @@
          <div id="contact">
         <form name="contact" method="POST" data-netlify="true" id="form">
             <label for="name">Your Name: </label>
-            <input id="name" type="text" name="name" placeholder="Name" class="inputs"/>
+            <input id="name" type="text" name="name" placeholder="Name" class="inputs" required/>
             <label for="email">Your Email: </label>
-            <input id="email" type="text" name="email" placeholder="Email" class="inputs" />
+            <input id="email" type="text" name="email" placeholder="Email" class="inputs" required/>
+            <label for="phone">Your Phone Number: </label>
+            <input id="phone" type="tel" name="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="(111)111-1111" class="inputs" /> <!--pattern attribute from AI-->
             <label for="message">Message: </label>
             <textarea id="message" name="message" placeholder="Message" class="inputs"></textarea>
-            <button type="submit" id="btn">Submit!</button>
+            <button type="submit" id="btn" required>Submit!</button>
         </form>
     </div>
 
