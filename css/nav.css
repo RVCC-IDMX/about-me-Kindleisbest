@@ -1,0 +1,19 @@
+header {
+    background-color: black;
+    /* margin: -10px;*/
+    border: none;
+    position: relative;
+}
+header li{
+    justify-self: center;
+    color: white;
+    list-style-type: none;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    color: grey;
+    text-decoration: underline;
+}
