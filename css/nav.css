@@ -31,23 +31,12 @@ header {
     border: none;
     position: relative;
 }
-header li{
-    justify-self: center;
-    color: white;
-    list-style-type: none;
-}
+
 header h1{
     color: white;
     justify-self: center;
 }
-header a{
-    color: white;
-    text-decoration: none;
-}
-header a:hover{
-    color: grey;
-    text-decoration: underline;
-}
+
 
 /* logo */
 .logo{
@@ -58,12 +47,30 @@ header a:hover{
 
 /* navigation list */
 
+header li{
+    justify-self: center;
+    color: white;
+    list-style-type: none;
+    padding: 0.5em 0;
+}
+
 
 /*  
  style all a tags in header 
  and then on hover
 */
-
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1.1rem 1.35rem;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+header a:hover{
+    color: grey;
+    text-decoration: underline;
+}
 
 
 
