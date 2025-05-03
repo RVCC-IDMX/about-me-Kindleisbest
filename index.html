@@ -25,17 +25,20 @@
 <body>
     <header>
         <nav>
-            <div>
+            <div class="logo">
             <a href="https://assets.codepen.io/385852/logo-96X96.svg" target="_blank"><img src="/img/bob.svg"
                     alt="blue bird">
                 </a>
+                <h1>Web Dev 1</h1>
             </div>
+            <div class="nav-links">
             <ul>
-                <li class="nav-links"><a href="#gallery">Gallery</a></li>
-                <li class="nav-links"><a href="#bio">Bio</a></li>
-                <li class="nav-links"><a href="#blog">Blog</a></li>
-                <li class="nav-links"><a href="#contact">Contact</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+        </div>
         </nav>
     </header>
     <main> <!-- style="text-align: center;" -->
@@ -147,7 +150,7 @@
             <label for="email">Your Email: </label>
             <input id="email" type="text" name="email" placeholder="Email" class="inputs" required/>
             <label for="phone">Your Phone Number: </label>
-            <input id="phone" type="tel" name="phoneNumber" pattern="([0-9]{3})[0-9]{3}-[0-9]{4}" placeholder="(111)111-1111" class="inputs" /> <!--pattern attribute from AI-->
+            <input id="phone" type="tel" name="phoneNumber" placeholder="(111)111-1111" class="inputs" /> <!--pattern attribute from AI-->
             <label for="message">Message: </label>
             <textarea id="message" name="message" placeholder="Message" class="inputs"></textarea>
             <button type="submit" id="btn" required>Submit!</button>
