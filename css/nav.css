@@ -92,8 +92,8 @@ such that no text wraps
     .navbar{
         flex-direction: row;
     }
-    .navbar ul{
+    /* .navbar ul{
         display: flex;
         justify-content: space-between;
-    }
+    } */
 }
