@@ -41,9 +41,12 @@ header h1{
 /* logo */
 .logo{
     display: flex;
-    
+    width: 100px;
+    height: 100px;
     justify-content: center;
+    margin: auto ;
 }
+
 
 /* navigation list */
 
