@@ -23,12 +23,25 @@
 </head>
 
 <body>
+    
     <header>
+
         <nav>
             <div class="logo">
                 <img src="/img/logo.svg" alt="logo" id="logo-img">
                 <h1>Web Dev 1</h1>
             </div>
+            <div class="hamburgerMenu" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+              
+              <script>
+              function myFunction(x) {
+                x.classList.toggle("change");
+              }
+              </script>
             <div class="nav-links">
             <ul>
                 <li><a href="#gallery">Gallery</a></li>
@@ -38,6 +51,7 @@
             </ul>
         </div>
         </nav>
+        
     </header>
     <main> <!-- style="text-align: center;" -->
         <section id="me">
