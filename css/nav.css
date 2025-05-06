@@ -90,7 +90,25 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
-@media screen and (min-width: 600px) {
+@media (max-width: 599.99px) {
+    
+    header ul{
+        justify-self: center;
+        align-self: center;
+        margin: auto;
+        width: 100px;
+    }
+    .navbar{
+        align-items: center;
+        margin: auto;
+
+    }
+    .navbar li{
+        margin: auto;
+
+    }
+}
+@media (min-width: 600px) and (max-width: 999.99px) {
     
     header ul{
         justify-self: center;
