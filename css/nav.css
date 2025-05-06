@@ -97,6 +97,7 @@ such that no text wraps
         align-self: center;
         margin: auto;
         width: 100px;
+        margin-bottom: 0;
     }
     .navbar{
         align-items: center;
@@ -115,6 +116,7 @@ such that no text wraps
         align-self: center;
         margin: auto;
         width: 100px;
+        margin-bottom: 0;
     }
     .navbar{
         align-items: center;
@@ -139,6 +141,7 @@ such that no text wraps
         display: flex;
         justify-content: space-evenly;
         width: auto;
+        margin-bottom: 0;
     } 
     
 }
