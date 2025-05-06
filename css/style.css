@@ -7,11 +7,12 @@ body {
 .avataaarsMe{
     padding: auto;
     background-color: #008ff6;
+    border-radius: 7px;
 }
 iframe{
     width: 450px;
     max-width: 100%;
-    height: auto;
+    height: 290px;
     max-height: 100%;
     margin: auto;
 }
@@ -30,6 +31,9 @@ footer {
     background-color: black;
     color:white;
     text-decoration-color: #ffff;
+}
+#bttm{
+    padding-bottom: 20px;
 }
 footer h4 {
     margin:0;

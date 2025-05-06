@@ -69,6 +69,8 @@ header a{
     padding: 1.1rem 1.35rem;
     letter-spacing: 2px;
     display: inline-block;
+    background-color:black;
+    border-radius:5px;
 }
 /* .navbar-links a:hover, .navbar-links:focus{
     filter:invert(50%) ;
@@ -76,9 +78,9 @@ header a{
 } */
 header a:hover, header a:focus{
     /* background-color: white; */
-    filter:invert(50%) ;
+    filter:invert(100%) ;
     text-decoration: underline; 
-    padding: 10px;
+    /*padding: 10px;*/
     
 }
 
@@ -149,12 +151,22 @@ such that no text wraps
 
 
 
+
+
 .hamburgerMenu {
-    display: inline-block;
+    display:none;
     cursor: pointer;
     justify-self: right;
     position: absolute;
     right: 25px; /*google ai*/
+    top: 30px;
+ 
+    
+  }
+  .hamburgerMenu:hover, .hamburgerMenu:focus{
+    background-color: black;
+    padding: 3px;
+    filter: invert(100%);
   }
   
 .bar1, .bar2, .bar3 {
@@ -176,3 +188,17 @@ such that no text wraps
 .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
   }
+
+
+/* For nav bar to behave on smaller screens. */
+@media screen and (max-width:999px) {
+    .hamburgerMenu {
+        display: inline-block;
+    }
+    .nav-links ul {
+        display:none;
+    }
+    .nav-links ul.show {
+        display:block;
+    }
+}
