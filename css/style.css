@@ -6,7 +6,7 @@ body {
     margin:0;
 }
 .picOfMe img{
-    padding: auto;
+    padding: 50px;
     background-color: #008ff6;
     border-radius: 7px;
     width: 300px;
