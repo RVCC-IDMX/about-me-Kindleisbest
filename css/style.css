@@ -1,4 +1,5 @@
-body {
+/*Main css styling for everything*/
+body { 
     background-color: #008ff6;
     padding-top: 0%;
     padding: 0%;
@@ -18,8 +19,14 @@ iframe{
     max-height: 100%;
     margin: auto;
 }
-main, footer {
+h1, h2, h3, h4, h5, h6, figcaption{
     font-family:"DM Serif Text";
+}
+p{
+    font-family: "Tinos";
+}
+main, footer {
+    
     text-align:center;
 }
 main h1{
@@ -27,7 +34,6 @@ main h1{
     font-family:"DM Serif Text";
 }
 footer {
-    /* margin: -10px; */
     border: none;
     position: relative;
     background-color: black;
@@ -84,6 +90,7 @@ figcaption{
     margin-bottom: 0px;
     margin-top: 10px;   
 }
+/*Media queries*/
 @media (min-width: 60em){
     figure{
         display:grid;
@@ -91,10 +98,7 @@ figcaption{
         align-items: center;
         justify-items: center;
     }
-/*
-    display:flex;
-    justify-content: center;
-    align-items: center;*/
+
     figcaption{
         font-size: 2rem;
         margin-left: 1rem; 
