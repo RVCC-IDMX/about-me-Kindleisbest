@@ -174,9 +174,13 @@ main {
     margin-bottom: 3px;
 }
 
-/*
-#me img {
-    width:700px;
-    max-width:100%;
+[type="button"]{
+    padding: 1px;
+    background-color: white;
+    text-decoration: none;
+    align-self: center;
+    justify-self:center;
+    color: black;
+    border-radius: 3px;
+    margin: 2px;
 }
-*/

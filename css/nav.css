@@ -73,16 +73,10 @@ header a{
     background-color:black;
     border-radius:5px;
 }
-/* .navbar-links a:hover, .navbar-links:focus{
-    filter:invert(50%) ;
-    text-decoration: underline;
-} */
+
 header a:hover, header a:focus{
-    /* background-color: white; */
     filter:invert(100%) ;
     text-decoration: underline; 
-    /*padding: 10px;*/
-    
 }
 
 
