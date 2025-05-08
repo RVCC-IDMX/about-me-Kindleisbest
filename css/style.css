@@ -1,67 +1,80 @@
 /*Main css styling for everything*/
 body { 
+    /*affects everything you see on the website (css below this can overide the body css*/
     background-color: #008ff6;
     padding-top: 0%;
     padding: 0%;
     margin:0;
 }
-.picOfMe img{
-    padding: 50px;
+.picOfMe{
+    padding: 30px;
     background-color: #008ff6;
+    border-radius: 7px;
+    width: 300px;
+    max-width: 100%;
+    justify-self: center;
+    padding-bottom: 3px;
+}
+.picOfMe img{
+    /*The picture that is by itself on the top this css adds the darker blue around it and curves the border of it and sizes the image appropiatly*/ 
+    padding: auto;
     border-radius: 7px;
     width: 300px;
     max-width: 100%;
 }
 iframe{
+    /*resizes and centers the video so it wont look weird on mobile*/
     width: 450px;
     max-width: 100%;
     height: 290px;
     max-height: 100%;
     margin: auto;
 }
+/*next 6 lines goes over the font type for the website*/ 
 h1, h2, h3, h4, h5, h6, figcaption{
     font-family:"DM Serif Text";
 }
 p{
     font-family: "Tinos";
 }
-main, footer {
-    
+main, footer { /*goes over centering everything*/
     text-align:center;
 }
-main h1{
+h1{ /*only sets font size as if 11:49 May 8, 2025*/
     font-size: 50px;
-    font-family:"DM Serif Text";
 }
-footer {
+footer { /*creates the footer that we all know and love by creating the thick black line at the bottem and added the copyrights and socials*/
     border: none;
     position: relative;
     background-color: black;
     color:white;
     text-decoration-color: #ffff;
 }
-#bttm{
-    padding-bottom: 20px;
+footer h4 { /*add reasonable space below text for the buttons instead of leaving it up to the browsers to decide*/
+    margin:3px;
 }
-footer h4 {
-    margin:0;
+[type="button"]{ /*creates the buttons in the footer for the socials*/
+    padding: 1px;
+    background-color: white;
+    text-decoration: none;
+    align-self: center;
+    justify-self:center;
+    color: black;
+    border-radius: 3px;
+    margin: 2px;
 }
-main {
+
+main {/*Sets BG Color for the main part of the website*/
     background-color: #48b0Fa;
 }
-#media {
-    text-align:center;
-    
-}
-figure img {
+
+figure img { /*Sizes images appropiatly*/
     width:640px;
     max-width: 100%;
     height: 100%;
 }
-#list li{
-    margin: 5px;
-}
-figcaption{
+
+figcaption{ /*Sets the style of the caption*/
     padding: 10px;
     background-color: #008ff6;
     border-radius: 7px;
@@ -70,12 +83,16 @@ figcaption{
     margin-left:auto;
     margin-right:auto;
 }
-#Hobbies{
+#Hobbies{ /*Makes the list fully centered with the bulletpoints*/
     display: flex; 
     flex-direction: column; 
     align-items: center;
 }
-#contact form{
+#list li{
+    /*spaces out the list out a bit in hobbies*/
+    margin: 5px;
+}
+#contact form /*Creates the style for the contact form*/{
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
@@ -172,15 +189,4 @@ main {
     width:50%;
     margin:auto;
     margin-bottom: 3px;
-}
-
-[type="button"]{
-    padding: 1px;
-    background-color: white;
-    text-decoration: none;
-    align-self: center;
-    justify-self:center;
-    color: black;
-    border-radius: 3px;
-    margin: 2px;
 }
