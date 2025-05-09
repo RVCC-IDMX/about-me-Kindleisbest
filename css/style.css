@@ -14,6 +14,8 @@ body {
     max-width: 100%;
     justify-self: center;
     padding-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .picOfMe img{
     /*The picture that is by itself on the top this css adds the darker blue around it and curves the border of it and sizes the image appropiatly*/ 
@@ -21,6 +23,7 @@ body {
     border-radius: 7px;
     width: 300px;
     max-width: 100%;
+
 }
 iframe{
     /*resizes and centers the video so it wont look weird on mobile*/
@@ -64,8 +67,9 @@ footer h4 { /*add reasonable space below text for the buttons instead of leaving
     margin: 2px;
 }
 
-main {/*Sets BG Color for the main part of the website*/
+main {/*Sets BG Color for the main part of the website and adds padding to the bottem of the page*/
     background-color: #48b0Fa;
+    padding-bottom:20px;
 }
 
 figure img { /*Sizes images appropiatly*/
@@ -108,27 +112,27 @@ figcaption{ /*Sets the style of the caption*/
     margin-top: 10px;   
 }
 /*Media queries*/
-@media (min-width: 60em){
+@media (min-width: 60em){ /*For smaller screens*/
     figure{
-        display:grid;
+        display:grid; /*To set the direction of the photo gallery*/
         grid-template-columns: 2fr 1fr;
         align-items: center;
         justify-items: center;
     }
 
-    figcaption{
+    figcaption{/*creates the font and position*/
         font-size: 2rem;
         margin-left: 1rem; 
         width:inherit;
         max-width: inherit;
     }
-    #blog div{
+    #blog div{ /*sizex the blog accordingly*/
         max-width:100%;
         columns: 40rem;
     }
     
 }
-@media (min-width: 1200px){
+@media (min-width: 1200px){ /*creates css for larger screen (all mostly similar w/ different values than above)*/
     #gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -167,12 +171,10 @@ figcaption{ /*Sets the style of the caption*/
 }
 
 
-main {
-    padding-bottom:20px;
-}
 
 
-.inputs{
+
+.inputs{ /*sets the inputs css for the contact form */
     border-radius: 10px;
     border-color: rgb(0,153,255);
     margin-top: 3px;
@@ -180,7 +182,7 @@ main {
     margin-right: 5px;
     margin-bottom: 5px;
 }
-#btn{
+#btn{ /*sets the submit button css for the contact form */
     margin-top: 3px;
     margin-bottom: 5px;
     border-radius: 10px;
