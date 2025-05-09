@@ -33,7 +33,7 @@ Le Thanh , Nam. “The Benefits of Using Animation in Web Design.” Medium, Med
 ### For website
 
 #### Source 4
-[w3 schools](www.w3schools.com)
+[w3 schools](https://www.w3schools.com)
 
 #### Source 5
 [MDN Web Docs](https://developer.mozilla.org/en-US/)
