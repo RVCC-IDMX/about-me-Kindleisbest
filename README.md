@@ -39,7 +39,7 @@ Le Thanh , Nam. “The Benefits of Using Animation in Web Design.” Medium, Med
 [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
 #### Source 6
-[Chat GPT](Chat.openai.com)
+[Chat GPT](https://Chat.openai.com)
 
 #### Source 7
 Google Overview AI (For debugging error messages)
